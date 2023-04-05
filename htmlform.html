@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <head>
+   <title>HTML form</title>
+  </head>
+  <body bgcolor="lightblue">
+    <center><h1>HTML FORM</h1></center>
+    <form>
+      <div class="input-element">
+        <label for="name"><b>Name</b></label>
+        <input id="name" type="text" name="name" placeholder="Name" required />
+      </div>
+      <br>
+      <div class="input-element">
+        <label for="email"><b>Email</b></label>
+        <input id="email" type="email" name="email" placeholder="Email" />
+      </div>
+      <br>
+      <div class="input-element">
+        <label for="birthday"></label><b>BirthDay</b></label>
+        <input id="name" type="date" name="name" placeholder="Name" required />
+      </div>
+      <br>
+      <label><b>Gender:</b></label><br>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+     <br>
+     <br>
+      <div class="input-element">
+        <label for="district"><b>District</b></label>
+        <select id="district" name="district">
+          <option value="null">Select a district</option>
+          <option value="colombo" selected>Colombo</option>
+          <option value="Kandy">Kandy</option>
+          <option value="Nuwara Eliya">Nuwara Eliya</option>
+          <option value="Matale">Matale</option>
+        </select>
+      </div>
+      <br>
+	  <div class="input-elements">
+		<label for="languages"><b>Languages</b></label>
+		<select id="languages" name="languages" multiple size="2">
+			<option value="null">Select a language</option>
+			<option value="sinhala">Sinhala</option>
+			<option value="tamil">Tamil</option>
+			<option value="english">English</option>
+		</select>
+	  </div>
+      <br>
+      <div class="input-element">
+		<label for="comment"><b>Comment</b></label>
+		<textarea id="comment" name="comment" rows="5" cols="30" placeholder="Comment"></textarea>
+	  </div>
+       <br>
+      <div class="input-element">
+        <button type="reset">Reset</button>
+		<button type="submit">Submit</button>
+      </div>
+
+    </form>
+  </body>
